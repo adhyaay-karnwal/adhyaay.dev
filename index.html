@@ -170,18 +170,21 @@
     <section id="contact" class="contact">
         <div class="container">
             <h2>Got Questions? Let's Answer Them Together</h2>
-            <form class="contact-form gradient-border-light" action="https://formsubmit.co/adhyaay.karnwal@gmail.com" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Tell me about your project" required></textarea>
-                
-                <!-- These are hidden fields for FormSubmit configuration -->
-                <input type="hidden" name="_subject" value="New Website Inquiry">
-                <input type="hidden" name="_template" value="table">
-                <input type="hidden" name="_next" value="thanks.html">
-                
-                <button type="submit" class="submit-button">Send Message</button>
-            </form>
+            <!-- Update the contact form section -->
+<form class="contact-form gradient-border-light" action="https://formsubmit.co/adhyaay.karnwal@gmail.com" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Tell me about your project" required></textarea>
+    
+    <!-- Updated FormSubmit configuration -->
+    <input type="hidden" name="_subject" value="New Website Inquiry">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_next" value="https://adhyaay-karnwal.github.io/adhyaay.dev/thanks.html">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_autoresponse" value="Thank you for your message! I'll get back to you soon.">
+    
+    <button type="submit" class="submit-button">Send Message</button>
+</form>
             <p class="direct-contact">Or directly contact me at <a href="mailto:adhyaay.karnwal@gmail.com">adhyaay.karnwal@gmail.com</a></p>
         </div>
     </section>
